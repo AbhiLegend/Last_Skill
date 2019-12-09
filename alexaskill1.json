@@ -1,0 +1,314 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wolfram engine",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Linearsolve",
+                    "slots": [],
+                    "samples": [
+                        "Please solve the linear equation",
+                        "Is there a way to solve the linear equation",
+                        "Would you solve the Linear equation",
+                        "Can you solve the linear equation",
+                        "Solve linear equation"
+                    ]
+                },
+                {
+                    "name": "Tuple",
+                    "slots": [],
+                    "samples": [
+                        "Please solve a Tuple for me",
+                        "Help me solving a Tuple",
+                        "Solve a Tuple of Degree three",
+                        "Solve a Tuple for me",
+                        "Can you solve a Tuple"
+                    ]
+                },
+                {
+                    "name": "Blockchain",
+                    "slots": [],
+                    "samples": [
+                        "Blockchain",
+                        "Latest update on Blockchain",
+                        "Share the Blockchain data",
+                        "Can you show me the Blockchain data",
+                        "Latest Blockchain hash"
+                    ]
+                },
+                {
+                    "name": "Opasp",
+                    "slots": [],
+                    "samples": [
+                        "Help me with Opcaity of a sphere",
+                        "Opacity of a sphere",
+                        "Save the Opacity of a Sphere",
+                        "Share the Opacity of a Sphere",
+                        "Can you show the Opacity of a sphere"
+                    ]
+                },
+                {
+                    "name": "PlotSin",
+                    "slots": [],
+                    "samples": [
+                        "Save the Plot of Sin Curve",
+                        "Sin Curve",
+                        "Share me the Plot of Sin Curve",
+                        "Plot of Sin Curve",
+                        "Show me the Plot of Sin curve in three d"
+                    ]
+                },
+                {
+                    "name": "Identitymatrix",
+                    "slots": [],
+                    "samples": [
+                        "Show me the value of Identity matrix",
+                        "Can we help me the value of Identity matrix",
+                        "Identity matrix",
+                        "Solve the identity matrix",
+                        "Share the values of Identity matrix"
+                    ]
+                },
+                {
+                    "name": "Vectorproduct",
+                    "slots": [],
+                    "samples": [
+                        "Give me a value of Vector product",
+                        "Solve Vector product",
+                        "Share the Value of Vector product",
+                        "Vector product",
+                        "Show me the value of Vector product"
+                    ]
+                },
+                {
+                    "name": "Tensorprod",
+                    "slots": [],
+                    "samples": [
+                        "Can you show the Tensor Product",
+                        "Help me with the Value of Tensor Product",
+                        "Share me the Value of Tensor Product",
+                        "Tensor Product",
+                        "Solve a Tensor product"
+                    ]
+                },
+                {
+                    "name": "Eigenvalue",
+                    "slots": [],
+                    "samples": [
+                        "Eigen Value",
+                        "Help me with Eigen Value of Matrix",
+                        "Solve an Eigen Value Matrix",
+                        "Eigen Value Matrix",
+                        "Share a Eigen Value Matrix"
+                    ]
+                },
+                {
+                    "name": "PlotCosin",
+                    "slots": [],
+                    "samples": [
+                        "Sin Cosine Plot",
+                        "Cn you share the Three Dimensional Plot of Sin and Cos Curve",
+                        "Help me with Three Dimensional Plot of Sin and Cos Curve",
+                        "Three Dimensional plot of sin and cos curve",
+                        "Show the three dimensional plot of sin and cos curve"
+                    ]
+                },
+                {
+                    "name": "Compgraph",
+                    "slots": [],
+                    "samples": [
+                        "Complete graph",
+                        "Help me with Complete graph",
+                        "Save a Complete Graph",
+                        "Give me a Complete Graph",
+                        "Share a Complete Graph"
+                    ]
+                },
+                {
+                    "name": "Rotationmat",
+                    "slots": [],
+                    "samples": [
+                        "Rotational matrix",
+                        "Help me with Rotational Matrix at Thirty Degree",
+                        "Rotational matrix at thirty degree",
+                        "Share the value of Rotational matrix"
+                    ]
+                },
+                {
+                    "name": "Laplacian",
+                    "slots": [],
+                    "samples": [
+                        "Give me an example of solving a Laplacian Transformation",
+                        "Share a Laplacian Transformation",
+                        "Laplacian Transformation",
+                        "Help me with a Laplacian Transformation",
+                        "Solve a Laplacian Tranformation"
+                    ]
+                },
+                {
+                    "name": "Parallm",
+                    "slots": [],
+                    "samples": [
+                        "Prallelize value of one",
+                        "Parallelize value of one",
+                        "Save the entire map for Parallelizing value of one",
+                        "Parallelize group of values of one",
+                        "Parallelize values of ones in order of one two three and four"
+                    ]
+                },
+                {
+                    "name": "Expand",
+                    "slots": [],
+                    "samples": [
+                        "expansion of one plus x",
+                        "Can you expand valus of one plus x to the power hundred",
+                        "Help me with the expansion of one plus x to the power hundred",
+                        "Expand value of one plus x to the power hundred"
+                    ]
+                },
+                {
+                    "name": "Cylndricald",
+                    "slots": [],
+                    "samples": [
+                        "Help me with the value of cylindrical decomposition equation",
+                        "Give me a value of cylindrical decomposition",
+                        "cylindrical decomposition",
+                        "Share me a cylindrical decompostion equation",
+                        "Show me a cylindrical decomposition"
+                    ]
+                },
+                {
+                    "name": "Fouriert",
+                    "slots": [],
+                    "samples": [
+                        "Share  with me  a Fourier Transformation equation",
+                        "Help me with a Fourier Transformation Equation",
+                        "Fourier Transformation equation",
+                        "Give me a Fourier Transformation equation",
+                        "Solve a Fourier Transformation equation"
+                    ]
+                },
+                {
+                    "name": "FourierOm",
+                    "slots": [],
+                    "samples": [
+                        "Give me values of Omega transformation",
+                        "Can you solve an Omega transformation",
+                        "Help me with a Omega Transformation",
+                        "Omega transformation",
+                        "Share me transformation of Omega"
+                    ]
+                },
+                {
+                    "name": "Nsolve",
+                    "slots": [],
+                    "samples": [
+                        "Share with me a N Solve equation",
+                        "Values of N Solve equation",
+                        "N Solve equation",
+                        "Give me values of an N Solve equation",
+                        "Help me with N Solve an equation"
+                    ]
+                },
+                {
+                    "name": "Hilbertm",
+                    "slots": [],
+                    "samples": [
+                        "Help me with a value of Hilbert matrix",
+                        "Share with me a value of Hilbert matrix",
+                        "Hilbert matrix",
+                        "Solve a Hilbert Matrix",
+                        "Give me a value of Hilbert matrix for three"
+                    ]
+                },
+                {
+                    "name": "Orthogonalm",
+                    "slots": [],
+                    "samples": [
+                        "orthogonal matrix",
+                        "Share with me an orthogonal matrix",
+                        "Help me with an Orthogonal matrix",
+                        "Give me a value of Orthogonal matrix",
+                        "Solve an orthogonalized matrix"
+                    ]
+                },
+                {
+                    "name": "Integrate",
+                    "slots": [],
+                    "samples": [
+                        "Integral equation with sin value",
+                        "Share with me an integral equation",
+                        "Give me a value of integral",
+                        "Solve an integral",
+                        "Integrate a value"
+                    ]
+                },
+                {
+                    "name": "Derivative",
+                    "slots": [],
+                    "samples": [
+                        "What is the derivative of x to the power n",
+                        "derivative of x to the power n",
+                        "can you solve a derivative of x to the power n",
+                        "Help me with a derivative of x to the power n",
+                        "Give me derivative of x to the power n"
+                    ]
+                },
+                {
+                    "name": "Gradient",
+                    "slots": [],
+                    "samples": [
+                        "Whats the value of gradient",
+                        "Help me with a gradient",
+                        "Give me value of gradient",
+                        "Solve a gradient",
+                        "Solve a gradient of x to the power two and y to the power two"
+                    ]
+                },
+                {
+                    "name": "Curl",
+                    "slots": [],
+                    "samples": [
+                        "Share with me a value of curl",
+                        "Help me with a value of Curl",
+                        "Curl",
+                        "Give me a mathematical value of a curl",
+                        "Solve an equation for curl"
+                    ]
+                },
+                {
+                    "name": "Clusteringt",
+                    "slots": [],
+                    "samples": [
+                        "Whats the value of Clustering tree",
+                        "Clustering tree",
+                        "Help me with a clustering tree",
+                        "Save a clustering tree",
+                        "Give me the value of Clustering tree"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
